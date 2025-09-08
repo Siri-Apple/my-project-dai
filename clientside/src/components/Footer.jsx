@@ -9,10 +9,7 @@ const Footer = () => {
         <div>
           <img className="mb-5 w-40" src={assets.logo} alt="" />
           <p className="w-full md:w-2/3 text-gray-600 leading-6">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book.
+            ...
           </p>
         </div>
 
@@ -20,19 +17,19 @@ const Footer = () => {
         <div>
           <p className="text-xl font-medium mb-5">COMPANY</p>
           <ul className="flex flex-col gap-2 text-gray-600">
-            <li>Home</li>
-            <li>About us</li>
-            <li>Contact us</li>
-            <li>Privacy policy</li>
+            <li>.</li>
+            <li>.</li>
+            <li>.</li>
+            <li>.</li>
           </ul>
         </div>
 
         {/* ------------ Right Section ------------ */}
         <div>
-          <p className="text-xl font-medium mb-5">GET IN TOUCH</p>
+          <p className="text-xl font-medium mb-5">.</p>
           <ul className="flex flex-col gap-2 text-gray-600">
-            <li>+250-784-652-570</li>
-            <li>elyseniyibizi502@gmail.com</li>
+            <li>.</li>
+            <li>.</li>
           </ul>
         </div>
       </div>
