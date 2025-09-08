@@ -25,7 +25,7 @@ const Doctors = () => {
 
   return (
     <div>
-      <p className="text-gray-600">Browse through the doctors specialist.</p>
+      <p className="text-gray-600">Browse through the funny workshop.</p>
       <div className="flex flex-col sm:flex-row items-start gap-5 mt-5">
         <button
           className={`py-1 px-3 border rounded text-sm transition-all sm:hidden ${
@@ -52,7 +52,7 @@ const Doctors = () => {
                 : ""
             }`}
           >
-            General physician
+            style 1
           </p>
           <p
             onClick={() =>
@@ -64,7 +64,7 @@ const Doctors = () => {
               speciality === "Gynecologist" ? "bg-indigo-100 text-black" : ""
             }`}
           >
-            Gynecologist
+            style 2
           </p>
           <p
             onClick={() =>
@@ -76,7 +76,7 @@ const Doctors = () => {
               speciality === "Dermatologist" ? "bg-indigo-100 text-black" : ""
             }`}
           >
-            Dermatologist
+            style 3
           </p>
           <p
             onClick={() =>
@@ -88,7 +88,7 @@ const Doctors = () => {
               speciality === "Pediatricians" ? "bg-indigo-100 text-black" : ""
             }`}
           >
-            Pediatricians
+            style 4
           </p>
           <p
             onClick={() =>
@@ -100,7 +100,7 @@ const Doctors = () => {
               speciality === "Neurologist" ? "bg-indigo-100 text-black" : ""
             }`}
           >
-            Neurologist
+            style 5
           </p>
           <p
             onClick={() =>
@@ -114,7 +114,7 @@ const Doctors = () => {
                 : ""
             }`}
           >
-            Gastroenterologist
+            style 6
           </p>
         </div>
         <div className="w-full grid grid-cols-auto gap-4 gap-y-6">

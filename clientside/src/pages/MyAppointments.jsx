@@ -75,7 +75,7 @@ const MyAppointments = () => {
   return (
     <div>
       <p className="pb-3 mt-12 font-medium text-zinc-700 border-b">
-        My appointments
+        My Bookings
       </p>
       <div>
         {appointments.map((item, index) => (
@@ -117,12 +117,12 @@ const MyAppointments = () => {
                   onClick={() => cancelAppointment(item._id)}
                   className="text-sm text-stone-500 text-center sm:min-w-48 py-2 border rounded hover:bg-red-600 hover:text-white transition-all duration-300"
                 >
-                  Cancel appointment
+                  Cancel booking
                 </button>
               )}
               {item.cancelled && !item.isCompleted && (
                 <button className="sm:min-w-48 py-2 border border-red-500 rounded text-red-500">
-                  Appointment cancelled
+                  Booking cancelled
                 </button>
               )}
               {item.isCompleted && (
