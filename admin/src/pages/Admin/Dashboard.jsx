@@ -25,7 +25,7 @@ const Dashboard = () => {
               <p className="text-xl font-semibold text-gray-600">
                 {dashData.doctors}
               </p>
-              <p className="text-gray-400">Doctors</p>
+              <p className="text-gray-400">Workshops</p>
             </div>
           </div>
 
@@ -35,7 +35,7 @@ const Dashboard = () => {
               <p className="text-xl font-semibold text-gray-600">
                 {dashData.appointments}
               </p>
-              <p className="text-gray-400">Appointments</p>
+              <p className="text-gray-400">Bookings</p>
             </div>
           </div>
 
@@ -45,7 +45,7 @@ const Dashboard = () => {
               <p className="text-xl font-semibold text-gray-600">
                 {dashData.patients}
               </p>
-              <p className="text-gray-400">Patients</p>
+              <p className="text-gray-400">Customers</p>
             </div>
           </div>
         </div>

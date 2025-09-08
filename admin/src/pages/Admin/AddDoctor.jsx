@@ -54,7 +54,7 @@ const AddDoctor = () => {
 
   return (
     <form onSubmit={onSubmitHandler} className="m-5 w-full">
-      <p className="mb-3 text-lg font-medium">Add Doctor</p>
+      <p className="mb-3 text-lg font-medium">Add Workshop</p>
       <div className="bg-white px-8 py-8 border rounded w-full max-w-4xl max-h-[80vh] overflow-y-scroll">
         <div className="flex items-center gap-4 mb-8 text-gray-500">
           <label htmlFor="doc-img">
@@ -71,14 +71,14 @@ const AddDoctor = () => {
             hidden
           />
           <p>
-            Upload doctor <br /> picture
+            Upload Workshop <br /> picture
           </p>
         </div>
 
         <div className="flex flex-col lg:flex-row items-start gap-10 text-gray-600">
           <div className="w-full lg:flex-1 flex flex-col gap-4">
             <div className="flex-1 flex flex-col gap-1">
-              <p>Doctor Name</p>
+              <p>Workshop Name</p>
               <input
                 onChange={(e) => SetName(e.target.value)}
                 value={name}
@@ -90,13 +90,13 @@ const AddDoctor = () => {
             </div>
 
             <div className="flex-1 flex flex-col gap-1">
-              <p>Fees</p>
+              <p>Price</p>
               <input
                 onChange={(e) => SetFees(e.target.value)}
                 value={fees}
                 className="border rounded px-3 py-2"
                 type="number"
-                placeholder="fees"
+                placeholder="price"
                 required
               />
             </div>
@@ -104,29 +104,29 @@ const AddDoctor = () => {
 
           <div className="w-full lg:flex-1 flex flex-col gap-4">
             <div className="flex-1 flex flex-col gap-1">
-              <p>Speciality</p>
+              <p>Cetagory</p>
               <select
                 onChange={(e) => SetSpeciality(e.target.value)}
                 value={speciality}
                 className="border rounded px-3 py-2"
               >
-                <option value="General physician">General physician</option>
-                <option value="Gynecologist">Gynecologist</option>
-                <option value="Dermatologist">Dermatologist</option>
-                <option value="Pediatricians">Pediatricians</option>
-                <option value="Neurologist">Neurologist</option>
-                <option value="Gastroenterologist">Gastroenterologist</option>
+                <option value="General physician">.</option>
+                <option value="Gynecologist">.</option>
+                <option value="Dermatologist">.</option>
+                <option value="Pediatricians">.</option>
+                <option value="Neurologist">.</option>
+                <option value="Gastroenterologist">.</option>
               </select>
             </div>
 
             <div className="flex-1 flex flex-col gap-1">
-              <p>Education</p>
+              <p>Detail</p>
               <input
                 onChange={(e) => SetDegree(e.target.value)}
                 value={degree}
                 className="border rounded px-3 py-2"
                 type="text"
-                placeholder="Education"
+                placeholder="Detail"
                 required
               />
             </div>
@@ -134,12 +134,12 @@ const AddDoctor = () => {
         </div>
 
         <div>
-          <p className="mt-4 mb-2">About Doctor</p>
+          <p className="mt-4 mb-2">About Workshop</p>
           <textarea
             onChange={(e) => SetAbout(e.target.value)}
             value={about}
             className="w-full px-4 pt-2 border rounded"
-            placeholder="write about doctor"
+            placeholder="write About Workshop"
             rows={5}
             required
           />
@@ -149,7 +149,7 @@ const AddDoctor = () => {
           type="submit"
           className="bg-primary px-10 py-3 mt-4 text-white rounded-full"
         >
-          Add doctor
+          Add Workshop
         </button>
       </div>
     </form>
