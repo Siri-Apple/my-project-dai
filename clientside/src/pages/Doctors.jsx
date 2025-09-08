@@ -52,7 +52,7 @@ const Doctors = () => {
                 : ""
             }`}
           >
-            style 1
+            ..
           </p>
           <p
             onClick={() =>
@@ -64,7 +64,7 @@ const Doctors = () => {
               speciality === "Gynecologist" ? "bg-indigo-100 text-black" : ""
             }`}
           >
-            style 2
+            ..
           </p>
           <p
             onClick={() =>
@@ -76,7 +76,7 @@ const Doctors = () => {
               speciality === "Dermatologist" ? "bg-indigo-100 text-black" : ""
             }`}
           >
-            style 3
+            ..
           </p>
           <p
             onClick={() =>
@@ -88,7 +88,7 @@ const Doctors = () => {
               speciality === "Pediatricians" ? "bg-indigo-100 text-black" : ""
             }`}
           >
-            style 4
+            ..
           </p>
           <p
             onClick={() =>
@@ -100,7 +100,7 @@ const Doctors = () => {
               speciality === "Neurologist" ? "bg-indigo-100 text-black" : ""
             }`}
           >
-            style 5
+            ..
           </p>
           <p
             onClick={() =>
@@ -114,7 +114,7 @@ const Doctors = () => {
                 : ""
             }`}
           >
-            style 6
+            ..
           </p>
         </div>
         <div className="w-full grid grid-cols-auto gap-4 gap-y-6">

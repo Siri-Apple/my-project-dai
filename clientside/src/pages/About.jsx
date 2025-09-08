@@ -6,7 +6,7 @@ const About = () => {
     <div>
       <div className="text-center text-2xl pt-10 text-gray-500">
         <p>
-          ABOUT <span className="text-gray-700 font-medium">US</span>
+          Create Your Custom<span className="text-gray-700 font-medium"> Cake</span>
         </p>
       </div>
 
@@ -18,12 +18,12 @@ const About = () => {
         />
         <div className="flex flex-col justify-center gap-6 md:w-2/4 text-sm text-gray-600">
           <p>
-            Welcome Our Cafe
+            Top menu
           </p>
           <p>
             ..
           </p>
-          <b className="text-gray-800">Our Vision</b>
+          <b className="text-gray-800">..</b>
           <p>
             ..
           </p>
@@ -32,7 +32,7 @@ const About = () => {
 
       <div className="text-xl my-4">
         <p>
-          Why <span className="text-gray-700 font-semibold">CHOOSE US</span>
+          Start <span className="text-gray-700 font-semibold">your Order</span>
         </p>
       </div>
 
